@@ -2,7 +2,7 @@ from PIL import Image
 import sys
 
 filename = "mm.jpg"
-divident = 1.0
+divident = 4
 divident = float(divident)
 
 pic = Image.open(filename)
