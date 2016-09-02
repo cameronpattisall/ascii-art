@@ -8,6 +8,7 @@ Contains python code
 Change the variables filename and divident to use different pictures
 * filename - the name of the image file to convert
 * divident - an integer of same values 2^n by which the picture will be negatively resized
+
 Right now the project is setup to turn a photo of Marilyn Monroe (mm.jpg) into ascii art
 
 ### artconv.sh
