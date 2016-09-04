@@ -4,6 +4,5 @@ convert out.jpg -trim ascii.jpg
 rm output.txt
 rm out.jpg
 open ascii.jpg
-
 convert +append ascii.jpg mm.jpg sidebyside.jpg
 open sidebyside.jpg
