@@ -1,8 +1,13 @@
 from PIL import Image
-import sys
+import sys, argparse
 
-filename = "mm.jpg"
-divident = 4
+parser = argparse.ArgumentParser()
+parser.add_argument('-p', '--picture', help='The image to convert into ascii art')
+parser.add_argument('-d', '--divident', help='The resize value by which to shrink the image (2, 4, or 8)')
+args = parser.parse_args()
+
+filename = args.picture
+divident = args.divident
 divident = float(divident)
 
 pic = Image.open(filename)
