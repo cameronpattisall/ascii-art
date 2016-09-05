@@ -4,9 +4,9 @@ Python program to transform images into ascii art
 * Requires a good font to be used for conversion in artconv.sh
 
 To run use the following command form
-'''
+```
 ./artconv [picture] [divident] 
-'''
+```
 
 ### scanner.py
 Contains python code
