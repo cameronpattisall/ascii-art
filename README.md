@@ -3,6 +3,11 @@ Python program to transform images into ascii art
 * Requires PIL module
 * Requires a good font to be used for conversion in artconv.sh
 
+To run use the following command form
+'''
+./artconv [picture] [divident] 
+'''
+
 ### scanner.py
 Contains python code
 Change the variables filename and divident to use different pictures
