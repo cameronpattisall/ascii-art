@@ -5,11 +5,13 @@ Python program to transform images into ascii art
 
 To run use the following command form
 ```
-./artconv [inputfile] [divident] [outputfile]
+./artconv [inputfile] [divident] [outputfile] [textcolor] [background]
 ```
 * inputfile: the name of the image file to convert ex. image.jpg
 * divident: the resize value by which to shrink the image by 2^n ex. 2, 4, 8, etc...
 * outputfile: the name of the outputted ascii image file
+* textcolor: color for the ascii text characters ex. black, red, blue, etc...
+* background: background color
 
 ### scanner.py
 Contains python code
