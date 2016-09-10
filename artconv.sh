@@ -4,7 +4,3 @@ convert out.jpg -trim $3
 rm output.txt
 rm out.jpg
 open $3
-#convert -size 10000X10000 $1 original.jpg
-#convert original.jpg -trim original.jpg
-#convert +append ascii.jpg original.jpg sidebyside.jpg
-#open sidebyside.jpg
